@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODERWANDA | Login</title>
+    <style>
+        * { box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { margin: 0; background: #eef3f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .container { background: white; padding: 35px; width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 4px 20px #ccd4df; }
+        h2 { text-align: center; color: #12345a; }
+        p { text-align: center; color: #666; }
+        input { width: 100%; padding: 13px; margin: 10px 0; border: 1px solid #ccc; border-radius: 6px; }
+        button { width: 100%; padding: 13px; background: #12345a; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
+        button:hover { background: #2475b8; }
+        a { color: #2475b8; text-decoration: none; }
+        .back { display: block; text-align: center; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Welcome Back</h2>
+    <p>Login to your CODERWANDA account</p>
+
+    <form onsubmit="event.preventDefault(); alert('Demo only: Login functionality requires a backend.');">
+        <input type="email" placeholder="Email Address" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <p>Don't have an account? <a href="registration.html">Register</a></p>
+    <a href="index.html" class="back">Back to Home</a>
+</div>
+
+</body>
+</html>

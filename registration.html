@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODERWANDA | Registration</title>
+    <style>
+        * { box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { margin: 0; background: #eef3f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .container { background: white; padding: 35px; width: 100%; max-width: 430px; border-radius: 12px; box-shadow: 0 4px 20px #ccd4df; }
+        h2 { text-align: center; color: #12345a; }
+        p { text-align: center; color: #666; }
+        input { width: 100%; padding: 13px; margin: 9px 0; border: 1px solid #ccc; border-radius: 6px; }
+        button { width: 100%; padding: 13px; background: #12345a; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
+        button:hover { background: #2475b8; }
+        a { color: #2475b8; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Create Account</h2>
+    <p>Register with CODERWANDA Ltd</p>
+
+    <form onsubmit="event.preventDefault(); alert('Demo only: Registration requires a backend.');">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="password" placeholder="Create Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <button type="submit">Register</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Login</a></p>
+    <p><a href="index.html">Back to Home</a></p>
+</div>
+
+</body>
+</html>
